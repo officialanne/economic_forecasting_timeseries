@@ -17,3 +17,10 @@ Econometrics and statistical analysis
 Time series modeling (ARIMA/SARIMA)
 Model selection, tuning, and diagnostics
 Forecasting and actionable insight generation
+
+# Modeling Workflow
+Load macroeconomic datasets (e.g., UK CPI, US unemployment rate).
+Plot time series trends and decompose series into trend, seasonality, and residuals.
+Fit ARIMA or SARIMA models and tune parameters.
+Forecast future values (next quarters/months).
+Compare predicted vs actual values and evaluate performance using MAE, RMSE.
