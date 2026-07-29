@@ -1,0 +1,13 @@
+# setup
+clone the git repository
+
+# create a virtual environment
+python -m venv .venv
+.\.venv\Scripts\activate
+
+# install dependencies
+pip install -r requirements.txt
+
+# run notebooks or Scripts
+notebooks/EDA.ipynb – Explore data and visualize trends.
+notebooks/Forecasting.ipynb – Fit models and forecast economic indicators.
