@@ -1,9 +1,12 @@
 import pandas as pd
+from pathlib import Path
 
-raw_path = "../data/raw/raw_uk_cpi.csv"
-processed_path = "../data/processed/uk_cpi_clean.csv"
+# file paths
+project_root = Path(__file__).parent.parent
+raw_path = project_root / "data" / "raw" / "raw_uk_cpi.csv"
+processed_path = project_root / "data" / "processed" / "uk_cpi_clean.csv"
 
-# import csv data
+# load raw data
 df = pd.read_csv(raw_path)
 
 # rename columns
